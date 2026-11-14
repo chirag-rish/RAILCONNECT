@@ -1,0 +1,41 @@
+{
+  "dataset_version": "eta_dataset_v2_weather",
+  "generation_timestamp": "2026-09-14T16:42:20.304455+00:00",
+  "source_train_runs": 1440,
+  "source_section_logs": 5760,
+  "feature_count": 30,
+  "target_definition": "target_delay_minutes = actualTravelTime - scheduledTravelTime",
+  "weather_features": [
+    "weather_temperature",
+    "weather_precipitation",
+    "weather_wind_speed",
+    "weather_visibility",
+    "weather_severity"
+  ],
+  "weather_causal_mechanism": "Weather causally affects delays through get_weather_delay_impact(): heavy rain, fog, extreme temperatures, and wind add delay proportional to section distance and vulnerability.",
+  "no_data_leakage": "Weather is generated from deterministic location/season/time model. No actual delay or future information is used in weather generation.",
+  "synthetic_data_disclaimer": "This dataset extends eta_dataset_v1 with synthetic weather features. Weather patterns are modeled after Indian climate zones. Replaceable with real Open-Meteo historical data.",
+  "split_details": {
+    "train": {
+      "count": 4031,
+      "date_range": {
+        "start": "2026-08-05T05:25:00.000Z",
+        "end": "2027-01-19T23:43:40.000Z"
+      }
+    },
+    "validation": {
+      "count": 865,
+      "date_range": {
+        "start": "2027-01-20T00:49:58.000Z",
+        "end": "2027-02-25T01:00:46.000Z"
+      }
+    },
+    "test": {
+      "count": 864,
+      "date_range": {
+        "start": "2027-02-25T05:08:00.000Z",
+        "end": "2027-04-02T00:35:01.000Z"
+      }
+    }
+  }
+}

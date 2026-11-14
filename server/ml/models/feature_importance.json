@@ -1,0 +1,150 @@
+[
+  {
+    "feature": "event_active",
+    "importance": 0.249823
+  },
+  {
+    "feature": "event_type",
+    "importance": 0.040422
+  },
+  {
+    "feature": "gradient_profile",
+    "importance": 0.030627
+  },
+  {
+    "feature": "historical_mean_delay",
+    "importance": 0.028985
+  },
+  {
+    "feature": "stations_travelled",
+    "importance": 0.028115
+  },
+  {
+    "feature": "accumulated_delay_squared",
+    "importance": 0.026364
+  },
+  {
+    "feature": "accumulated_delay_x_speed",
+    "importance": 0.02615
+  },
+  {
+    "feature": "hour_cos",
+    "importance": 0.024751
+  },
+  {
+    "feature": "delay_rate",
+    "importance": 0.023774
+  },
+  {
+    "feature": "prev_section_travel_time",
+    "importance": 0.023485
+  },
+  {
+    "feature": "accumulated_delay_entering",
+    "importance": 0.022631
+  },
+  {
+    "feature": "accumulated_delay_x_distance",
+    "importance": 0.022604
+  },
+  {
+    "feature": "typical_speed",
+    "importance": 0.021845
+  },
+  {
+    "feature": "section_type_gradient",
+    "importance": 0.021178
+  },
+  {
+    "feature": "signals_per_km",
+    "importance": 0.020955
+  },
+  {
+    "feature": "section_distance",
+    "importance": 0.020317
+  },
+  {
+    "feature": "is_night",
+    "importance": 0.020313
+  },
+  {
+    "feature": "stations_remaining",
+    "importance": 0.020224
+  },
+  {
+    "feature": "prev_section_delay",
+    "importance": 0.020045
+  },
+  {
+    "feature": "speed_margin",
+    "importance": 0.020011
+  },
+  {
+    "feature": "historical_mean_travel_time",
+    "importance": 0.019933
+  },
+  {
+    "feature": "delay_fraction_of_travel",
+    "importance": 0.019829
+  },
+  {
+    "feature": "hour",
+    "importance": 0.019527
+  },
+  {
+    "feature": "speed_limit_ratio",
+    "importance": 0.019046
+  },
+  {
+    "feature": "hour_sin",
+    "importance": 0.018589
+  },
+  {
+    "feature": "day_of_week",
+    "importance": 0.018022
+  },
+  {
+    "feature": "prev_delay_positive",
+    "importance": 0.017841
+  },
+  {
+    "feature": "crossings_per_km",
+    "importance": 0.017568
+  },
+  {
+    "feature": "section_travel_time",
+    "importance": 0.017174
+  },
+  {
+    "feature": "max_speed",
+    "importance": 0.01694
+  },
+  {
+    "feature": "level_crossings",
+    "importance": 0.015862
+  },
+  {
+    "feature": "section_type",
+    "importance": 0.015803
+  },
+  {
+    "feature": "is_weekend",
+    "importance": 0.015243
+  },
+  {
+    "feature": "event_speed_ratio",
+    "importance": 0.014704
+  },
+  {
+    "feature": "event_speed_limit",
+    "importance": 0.014463
+  },
+  {
+    "feature": "is_peak_hour",
+    "importance": 0.013788
+  },
+  {
+    "feature": "signal_count",
+    "importance": 0.013053
+  }
+]

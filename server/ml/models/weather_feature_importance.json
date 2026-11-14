@@ -1,0 +1,186 @@
+[
+  {
+    "feature": "event_active",
+    "importance": 0.201055
+  },
+  {
+    "feature": "weather_is_fog",
+    "importance": 0.059199
+  },
+  {
+    "feature": "weather_visibility",
+    "importance": 0.052279
+  },
+  {
+    "feature": "weather_is_severe",
+    "importance": 0.04665
+  },
+  {
+    "feature": "weather_precipitation",
+    "importance": 0.036528
+  },
+  {
+    "feature": "weather_severity",
+    "importance": 0.036459
+  },
+  {
+    "feature": "precipitation_x_distance",
+    "importance": 0.027342
+  },
+  {
+    "feature": "level_crossings",
+    "importance": 0.023737
+  },
+  {
+    "feature": "event_type",
+    "importance": 0.019349
+  },
+  {
+    "feature": "historical_mean_delay",
+    "importance": 0.018766
+  },
+  {
+    "feature": "delay_fraction_of_travel",
+    "importance": 0.017106
+  },
+  {
+    "feature": "stations_travelled",
+    "importance": 0.016797
+  },
+  {
+    "feature": "accumulated_delay_x_speed",
+    "importance": 0.01679
+  },
+  {
+    "feature": "delay_rate",
+    "importance": 0.016644
+  },
+  {
+    "feature": "event_speed_limit",
+    "importance": 0.016443
+  },
+  {
+    "feature": "crossings_per_km",
+    "importance": 0.01599
+  },
+  {
+    "feature": "is_night",
+    "importance": 0.015737
+  },
+  {
+    "feature": "signal_count",
+    "importance": 0.015718
+  },
+  {
+    "feature": "section_distance",
+    "importance": 0.015635
+  },
+  {
+    "feature": "event_speed_ratio",
+    "importance": 0.015384
+  },
+  {
+    "feature": "speed_limit_ratio",
+    "importance": 0.015338
+  },
+  {
+    "feature": "accumulated_delay_entering",
+    "importance": 0.014533
+  },
+  {
+    "feature": "max_speed",
+    "importance": 0.014246
+  },
+  {
+    "feature": "section_travel_time",
+    "importance": 0.013746
+  },
+  {
+    "feature": "weather_wind_speed",
+    "importance": 0.013559
+  },
+  {
+    "feature": "historical_mean_travel_time",
+    "importance": 0.013391
+  },
+  {
+    "feature": "is_peak_hour",
+    "importance": 0.013347
+  },
+  {
+    "feature": "accumulated_delay_squared",
+    "importance": 0.013023
+  },
+  {
+    "feature": "accumulated_delay_x_distance",
+    "importance": 0.012882
+  },
+  {
+    "feature": "is_weekend",
+    "importance": 0.012764
+  },
+  {
+    "feature": "typical_speed",
+    "importance": 0.012687
+  },
+  {
+    "feature": "weather_temperature",
+    "importance": 0.012537
+  },
+  {
+    "feature": "section_type_gradient",
+    "importance": 0.012326
+  },
+  {
+    "feature": "day_of_week",
+    "importance": 0.012282
+  },
+  {
+    "feature": "prev_delay_positive",
+    "importance": 0.012164
+  },
+  {
+    "feature": "signals_per_km",
+    "importance": 0.011758
+  },
+  {
+    "feature": "prev_section_travel_time",
+    "importance": 0.011621
+  },
+  {
+    "feature": "hour_sin",
+    "importance": 0.011409
+  },
+  {
+    "feature": "prev_section_delay",
+    "importance": 0.011376
+  },
+  {
+    "feature": "gradient_profile",
+    "importance": 0.010825
+  },
+  {
+    "feature": "hour_cos",
+    "importance": 0.010397
+  },
+  {
+    "feature": "hour",
+    "importance": 0.010194
+  },
+  {
+    "feature": "stations_remaining",
+    "importance": 0.010115
+  },
+  {
+    "feature": "speed_margin",
+    "importance": 0.010039
+  },
+  {
+    "feature": "weather_is_rain",
+    "importance": 0.010037
+  },
+  {
+    "feature": "section_type",
+    "importance": 0.009795
+  }
+]

@@ -1,0 +1,98 @@
+﻿# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Next.js
+.next/
+out/
+build/
+dist/
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Logs and diagnostics
+*.log
+logs/
+client_log*.txt
+server_log*.txt
+server_output_full.txt
+active_ports.txt
+
+# Generated files
+*.tsbuildinfo
+*.sqlite
+*.db
+
+# Private generated tickets
+server/public/tickets/*.pdf
+
+# Large Kaggle dataset
+server/data/kaggle/ir_train.csv
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.pem
+*.key
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Unreviewed administrative and debugging utilities
+server/scripts/
+server/create_personal_admin.js
+server/force_reset_password.js
+server/password_reset_links.txt
+server/apply_fixes.ps1
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+**/node_modules/
+
+# Next.js
+**/.next/
+**/out/
+
+# Python
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/venv/
+*.pyc
+
+# Logs
+*.log
+
+# Build outputs
+**/dist/
+**/build/
+
+# Large Kaggle dataset
+/server/data/kaggle/ir_train.csv
+
+# Unused empty file
+/client/src/components/students.txt
